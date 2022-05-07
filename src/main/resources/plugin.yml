@@ -1,0 +1,16 @@
+main: me.kagglu.kaggluelections.Main
+name: KaggluElections
+version: 1.1
+author: Kagglu
+api-version: 1.13
+commands:
+  vote:
+    description: Votes for a player, or displays the candidate list if no name is given
+    usage: /vote [name]
+  results:
+    description: Displays elections results. Only usable while voting is not currently active
+    usage: /results
+  election:
+    description: Election editting command. For help, run /election help
+    usage: /election [command]
+    permission: bukkit.command.reload
