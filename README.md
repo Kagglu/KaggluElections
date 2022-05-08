@@ -1,0 +1,3 @@
+# KaggluElections
+
+Minecraft election plugin
