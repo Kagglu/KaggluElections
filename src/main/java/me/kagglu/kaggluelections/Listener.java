@@ -16,7 +16,7 @@ public class Listener implements org.bukkit.event.Listener {
     public void onPlayerJoinEvent(PlayerJoinEvent event) {
         Player p = event.getPlayer();
         if (instance.allowVoting) {
-            p.sendMessage("§2§lMayoral voting is currently open! Make sure to vote either at the election center or by using /vote");
+            p.sendMessage("§2§lVoting is currently open! Make sure to vote either at the election center or by using /vote");
         }
     }
 }

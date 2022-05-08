@@ -23,7 +23,7 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        new File("/plugins/KaggluElections").mkdirs();
+        this.saveConfig();
         voterRolls = new File("plugins/KaggluElections/voterRolls.txt");
         electionResults = new File("plugins/KaggluElections/electionResults.txt");
         other = new File("plugins/KaggluElections/other.txt");

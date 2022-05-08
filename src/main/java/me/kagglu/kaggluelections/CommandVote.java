@@ -59,7 +59,7 @@ public class CommandVote implements CommandExecutor {
             p.sendMessage(instance.candidates.get(i).getName());
         }
         p.sendMessage("§b§l--------------------------------");
-        if (!instance.question.equalsIgnoreCase("")) {
+        if (instance.question != null && !instance.question.equalsIgnoreCase("")) {
             p.sendMessage("§2§lElection question: " + instance.question);
         }
     }
