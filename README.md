@@ -1,3 +1,3 @@
 # KaggluElections
 
-Minecraft election plugin
+Minecraft election plugin. No guarentees that everything works.
