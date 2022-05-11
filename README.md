@@ -1,5 +1,5 @@
 # KaggluElections
 
-Minecraft election plugin. No guarentees that everything works.
+Minecraft election plugin. 
 
-Check the wiki page for help on the election commands
+Check the wiki page for help with commands
